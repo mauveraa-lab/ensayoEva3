@@ -53,3 +53,6 @@ while ejecutando:
                 print(f"Devolucion exitosa ha regresa {cantidad_a_devolver} bicicletas" )
         except ValueError:
             print("Error: debe ingresar un numero entero valido")
+    #opcion4: historial viajes activos
+    elif opcion == 4:
+        print(f"\n[HISTORIAL] actualmente hay {viajes_activos} bicicleta(s) en uso por usuario")
